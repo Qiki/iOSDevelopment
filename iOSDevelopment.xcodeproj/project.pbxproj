@@ -15,6 +15,7 @@
 		27671C2A1BC61C2900D4EEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27671C281BC61C2900D4EEAF /* LaunchScreen.storyboard */; };
 		27671C351BC61C2900D4EEAF /* iOSDevelopmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27671C341BC61C2900D4EEAF /* iOSDevelopmentTests.m */; };
 		27671C401BC61C2900D4EEAF /* iOSDevelopmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27671C3F1BC61C2900D4EEAF /* iOSDevelopmentUITests.m */; };
+		27671C4F1BC61F3300D4EEAF /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27671C4E1BC61F3300D4EEAF /* ImageViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		27671C3B1BC61C2900D4EEAF /* iOSDevelopmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDevelopmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27671C3F1BC61C2900D4EEAF /* iOSDevelopmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDevelopmentUITests.m; sourceTree = "<group>"; };
 		27671C411BC61C2900D4EEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27671C4D1BC61F3300D4EEAF /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		27671C4E1BC61F3300D4EEAF /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				27671C1D1BC61C2900D4EEAF /* AppDelegate.h */,
 				27671C1E1BC61C2900D4EEAF /* AppDelegate.m */,
+				27671C4D1BC61F3300D4EEAF /* ImageViewController.h */,
+				27671C4E1BC61F3300D4EEAF /* ImageViewController.m */,
 				27671C201BC61C2900D4EEAF /* ViewController.h */,
 				27671C211BC61C2900D4EEAF /* ViewController.m */,
 				27671C231BC61C2900D4EEAF /* Main.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				27671C221BC61C2900D4EEAF /* ViewController.m in Sources */,
 				27671C1F1BC61C2900D4EEAF /* AppDelegate.m in Sources */,
+				27671C4F1BC61F3300D4EEAF /* ImageViewController.m in Sources */,
 				27671C1C1BC61C2900D4EEAF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				27671C461BC61C2900D4EEAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27671C471BC61C2900D4EEAF /* Build configuration list for PBXNativeTarget "iOSDevelopmentTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				27671C491BC61C2900D4EEAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27671C4A1BC61C2900D4EEAF /* Build configuration list for PBXNativeTarget "iOSDevelopmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				27671C4C1BC61C2900D4EEAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
